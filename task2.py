@@ -5,7 +5,7 @@ FILE_NAME = "ATMData.pkl"
 
 
 class Account:
-    def __init__(self, account_number, holder_name, balance):
+    def __init__(self, account_number, holder_name, balance):  
         self.account_number = account_number
         self.holder_name = holder_name
         self.balance = balance
@@ -19,7 +19,7 @@ def create_accounts():
                 for i in range(1, 11)
             ]
             pickle.dump(accounts, out)
-        print("10 Accounts created.")
+        print("10 Accounts created.")  
     except IOError as e:
         print(e)
 
