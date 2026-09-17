@@ -30,7 +30,7 @@
 #     i= i+1
 
 # print("The factorial of number is ",factorial)
-
+print("hello from software construction lab")
 def arithmetic_operation():
     try:
         num1 = float(input("Enter first number: "))
