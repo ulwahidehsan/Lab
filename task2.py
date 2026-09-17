@@ -2,6 +2,7 @@ import pickle
 import os
 
 FILE_NAME = "ATMData.pkl"
+print("hello world")
 
 
 class Account:
